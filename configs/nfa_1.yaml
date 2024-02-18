@@ -1,0 +1,29 @@
+# NFA Configuration
+
+# State specifications
+states:
+  - q0  # Starting state
+  - q1  # Intermediate state
+  - q2  # Accept state
+
+# Input alphabet
+alphabet: [0, 1]
+
+# Initial state
+start_state: q0
+
+# Accept states
+accept_states: [q2]
+
+# Transition rules
+transitions:
+  - from_state: q0
+    input: 0
+    to_states: [q0]
+  - from_state: q0
+    input: 1
+    to_states: [q0, q1]
+  - from_state: q1
+    input: 1
+    to_states: [q2]
+

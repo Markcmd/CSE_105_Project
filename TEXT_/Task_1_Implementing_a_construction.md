@@ -13,7 +13,7 @@ Specifically:
 
     Whenever your program is run, it should display a representation of the input NFA and of the output DFA of the run.
 
-4. To demonstrate your program, design a NFA over $\Sigma$ with three states and with no spontaneous moves where the language of the NFA is neither $\emptyset$ nor $\Sigma^*$ and draw its state diagram. Your NFA should use nondeterminism in some way. In other words, the state diagram you draw can't already be the state diagram of a DFA. Run your program with the NFA you just designed to output a representation of an equivalent DFA and demonstrate its design and the test case on video.
+3. To demonstrate your program, design a NFA over $\Sigma$ with three states and with no spontaneous moves where the language of the NFA is neither $\emptyset$ nor $\Sigma^*$ and draw its state diagram. Your NFA should use nondeterminism in some way. In other words, the state diagram you draw can't already be the state diagram of a DFA. Run your program with the NFA you just designed to output a representation of an equivalent DFA and demonstrate its design and the test case on video.
 
 ### Checklist for submission
 
